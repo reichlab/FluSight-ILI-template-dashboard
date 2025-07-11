@@ -1,14 +1,22 @@
-# Template Hubverse Dashboard Repository
+# Template FluSight ILI Sandbox Dashboard Repository
+
+This is a template for creating a dashboard repository for a hubverse-style modeling hub based around FluSight ILI forecasting.
+It is designed to be used only with the [FluSight ILI Template Hub](https://github.com/reichlab/FluSight-ILI-template-hub), 
+which is in turn based on [the archive of FluSight ILI forecasts](https://github.com/hubverse-org/flusight_hub_archive).
+
+To be clear, **THIS IS NOT A REAL-TIME FORECASTING HUB.** 
+It is a hub that is designed to be used for teaching, training and research purposes.
+
+To set up this hub for your use, please [read the quickstart instructions below](#quickstart).
+
 
 ## Quickstart
 
-Use this template to create a dashboard repository for your hub and then do
-the following:
-
-1. Add markdown content to `pages/`
-2. Update `site-config.yml`
-    i. `hub` is the github repository (`owner/repo`) for your active hub. This example defaults to
-       the CDC FluSight hub (`cdcepi/FluSight-forecast-hub`)
+1. Clone the [FluSight ILI Template Hub](https://github.com/reichlab/FluSight-ILI-template-hub) by clicking the "use this template" button on the repo homepage.
+1. Clone this hub using the "use this template" button on the main page.
+1. Add any special markdown content to `pages/`
+1. Update `site-config.yml`
+    i. `hub` is the github repository (`owner/repo`) for your active hub.
     ii. `title` is the title of your dashboard
     iii. `pages` is a list of additional optional pages you want included in the top bar after the
          home page (index.html) and forecasts (forecast.html).

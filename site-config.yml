@@ -1,6 +1,6 @@
 ---
-hub: "cdcepi/FluSight-forecast-hub/"
-title: "Example Hub Dashboard Website"
+hub: "reichlab/FluSight-ILI-template-hub"
+title: "FluSight ILI Sandbox Dashboard"
 pages:
   - "about.md"
   - "data.qmd"
